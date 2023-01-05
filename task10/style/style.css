@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer {
+  background: #252B42;
+  color: white;
+  padding: 50px 15% 0 15%;
+}
+.footer--head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+  border-bottom: 1px solid white;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.footer--head--sociall {
+  display: flex;
+  gap: 20px;
+}
+.footer--body {
+  display: flex;
+  justify-content: space-between;
+  min-width: 250px;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 50px 0;
+}
+.footer--body ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.footer--body ul li {
+  cursor: pointer;
+}
+.footer--body ul .form h4 {
+  margin-bottom: 20px;
+}
+.footer--body ul .form form input, .footer--body ul .form form button {
+  height: 50px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  margin-bottom: 9px;
+}
+.footer--body ul .form form input {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.footer--body ul .form form button {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  cursor: pointer;
+  background: #23A6F0;
+  color: white;
+}
+.footer--foot {
+  padding: 30px 0;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.footer{
+    padding: 0 15%;
+
+
+    &--head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 150px;
+        border-bottom: 1px solid rgba(73, 71, 71, 0.26);
+        flex-wrap: wrap;
+        &--icons{
+            display: flex;
+            gap: 20px;
+            img{
+                cursor: pointer;
+            }
+        }
+    }
+
+    &--main{
+        padding: 5% 0;
+        display: flex;
+        justify-content: space-between;
+
+        &--navigation{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+            flex-wrap: wrap;
+
+            ul{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                li{
+                    opacity: .7;
+                    cursor: pointer;
+                }
+            }
+            &--form{
+               display: flex;
+               flex-direction: column;
+               gap: 15px;
+
+               input{
+                outline: none;
+                // border: none;
+                border: 1px solid rgba(182, 161, 161, 0.719);
+                padding: 8px 16px;
+                height: 50px;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+               }
+
+               button{
+                height: 50px;
+                outline: none;
+                border:none;
+                padding: 8px 16px;
+                background-color: #23A6F0;
+                color: white;
+                cursor: pointer;
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+               }
+            }
+        }
+    }
+
+    &--foot{
+        padding: 24px;
+        display: flex;
+        align-items:center;
+        justify-content: start;
+    }
+    
+}

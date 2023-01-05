@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer {
+  color: white;
+  background-color: #2A7CC7;
+  padding: 50px;
+}
+.footer--content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer--content--main {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 179px;
+  gap: 20px;
+  width: 230px;
+}
+.footer--content--main p {
+  opacity: 0.7;
+}
+.footer--content--main--logo {
+  display: flex;
+  gap: 20px;
+}
+.footer--content--main--logo img {
+  cursor: pointer;
+}
+.footer--content--aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+.footer--content--aside ul {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  min-width: 230px;
+}
+.footer--content--aside ul li {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.footer--foot {
+  padding: 50px 0 0 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
